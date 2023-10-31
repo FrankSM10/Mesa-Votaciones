@@ -1,0 +1,89 @@
+button {
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    line-height: 0; /* Esto eliminará cualquier espacio adicional alrededor de la imagen */
+}
+
+.mesa1 {
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    display: block;
+    width: 20%;
+    height: auto;
+}
+
+.mesa2 {
+    position: absolute;
+    top: 120px;
+    left: 900px;
+    display: block;
+    width: 20%;
+    height: 222px;
+}
+
+.mesa3 {
+    position: absolute;
+    top: 420px;
+    left: 400px;
+    display: block;
+    width: 20%;
+    height: 222px;
+}
+.mesa4 {
+    position: absolute;
+    top: 420px;
+    left: 900px;
+    display: block;
+    width: 20%;
+    height: 222px;
+}
+
+.jurado {
+    position: absolute;
+    top: 420px;
+    left: 900px;
+    display: block;
+    width: 20%; /* same width as .mesa */
+    height: 175px; /* same height as .mesa */
+}
+.Pmesa1{
+    position: absolute;
+    left: 480px;
+    top: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white; /* Cambia el color del texto a blanco */
+
+}
+.Pmesa2{
+    position: absolute;
+    left: 990px;
+    top: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white; /* Cambia el color del texto a blanco */
+
+}
+.Pmesa3{
+    position: absolute;
+    left: 480px;
+    top: 370px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white; /* Cambia el color del texto a blanco */
+
+}
+.Pjurado{
+    position: absolute;
+    left: 950px;
+    top: 370px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white; /* Cambia el color del texto a blanco */
+
+}

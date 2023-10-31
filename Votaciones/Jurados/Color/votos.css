@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.votos-list {
+    max-width: 600px;
+    margin: 20px auto;
+    list-style-type: none;
+    padding: 0;
+}
+
+.voto-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 40px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.aspirante-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.votos-count {
+    color: #666;
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.liberal, .verde, .centro, .candidate {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.liberal {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 346px;
+    left: 830px;
+}
+.liberal1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 460px;
+    left: 830px;
+}
+
+.verde {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 125px;
+    left: 830px;
+}
+.verde1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 232px;
+    left: 830px;
+}
+
+.centro {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 570px;
+    left: 830px;
+}
+.centro1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 676px;
+    left: 830px;
+}
+
+.candidate {
+    position: relative;
+}
+.zidane{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 676px;
+    left: 320px;
+}
+.carlo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 460px;
+    left: 320px;
+}
+.cris{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 232px;
+    left: 320px;
+}
+.messi{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 120px;
+    left: 320px;
+}
+.ney{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 346px;
+    left: 320px;
+}
+.pep{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 570px;
+    left: 320px;
+}
